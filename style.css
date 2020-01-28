@@ -22,7 +22,7 @@ header {
     height: 50px;
 }
 
-a {
+nav a {
     color: seashell;
     margin: 10px;
     padding: 5px;
@@ -38,6 +38,7 @@ main {
 #mission {
     display: flex;
     background-image: url("./images/img-mission-background.jpg");
+    background-position: center;
     width: 1200px;
     height: 700px;
     justify-content: center;
@@ -52,7 +53,7 @@ main {
 
 #featured-tea {
     text-align: center;
-    width: 1000px;
+    width: 1200px;
 }
 
 .TOTM {
@@ -74,28 +75,35 @@ main {
 
 #locations {
     background-image: url("./images/img-locations-background.jpg");
+    background-position: center;
     height: 500px;
     width: 1200px;
     text-align: center;
+}
+
+#locations h2 {
+    margin-top: 50px;
 }
 
 .locations {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+
 }
 
 .location {
+    display: flex;
     background-color: black;
     width: 300px;
     height: 300px;
     margin: 15px 20px;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
     text-align: center;
 }
 
